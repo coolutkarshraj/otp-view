@@ -10,5 +10,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        com.io.scpent.otpview.MainActivity.s(MainActivity.this,"this is first toast of library");
     }
 }
